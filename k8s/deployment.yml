@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: django-deployment
+  labels:
+    apps: django-label
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      apps: django-label
+  template:
+      metadata:
+        name: django-pod
+        labels:
+          apps: django-label
+      spec:
+        containers:
+          - name: django-ctr
+            image: asadkhan03/notes-app
+            ports:
+              - containerPort: 8000
