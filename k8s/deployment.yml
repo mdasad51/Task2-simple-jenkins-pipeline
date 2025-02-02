@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: django-deployment
+  name: django-notes-app
   labels:
     apps: django-label
 spec:
@@ -16,7 +16,7 @@ spec:
           apps: django-label
       spec:
         containers:
-          - name: django-ctr
+          - name: django-notes-container
             image: asadkhan03/notes-app
             ports:
               - containerPort: 8000
