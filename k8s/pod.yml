@@ -4,7 +4,7 @@ metadata:
   name: django-pod
 spec:
   containers:
-    - name: django-ctr
+    - name: django-notes-container
       image: asadkhan03/notes-app
       ports:
         - containerPort: 8000
