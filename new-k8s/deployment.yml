@@ -16,7 +16,7 @@ spec:
           apps: django-label
       spec:
         containers:
-          - name: django-notes-container:replaceImageTag
+          - name: django-notes-container:10
             image: asadkhan03/notes-app
             ports:
               - containerPort: 8000
