@@ -1,4 +1,4 @@
 kustomize:
   images:
   - asadkhan03/django-app:v1.4
-  - asadkhan03/django-notes-app:v0.3
+  - asadkhan03/django-notes-app:v0.4
