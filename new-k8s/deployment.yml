@@ -17,6 +17,6 @@ spec:
       spec:
         containers:
           - name: django-notes-container
-            image: asadkhan03/django-app:v0.1
+            image: image: asadkhan03/django-notes-app:v0.1
             ports:
               - containerPort: 8000
