@@ -51,3 +51,17 @@ Install Nginx reverse proxy to make this application available
 
 `sudo apt-get update`
 `sudo apt install nginx`
+
+# Full CI CD Pipeline on jenkins
+![image alt](https://github.com/mdasad51/Task2-simple-jenkins-pipeline/blob/main/project-screenshots/Screenshot%202025-08-05%20114554.png?raw=true)
+
+# Docker Container is running perfectly
+![image alt](https://github.com/mdasad51/Task2-simple-jenkins-pipeline/blob/main/project-screenshots/Screenshot%202025-08-05%20120904.png?raw=true)
+
+# Setup GitHub webhook with jenkins for automate pipeline 
+when ever developer commit any changes on GitHub pipeline will automatically trigger with the help of GitHub webhook.
+
+![image alt](https://github.com/mdasad51/Task2-simple-jenkins-pipeline/blob/main/project-screenshots/Screenshot%202025-08-05%20114523.png?raw=true)
+
+# This is the running application Django Notes App
+![image alt](https://github.com/mdasad51/Task2-simple-jenkins-pipeline/blob/main/project-screenshots/Screenshot%202025-08-05%20114502.png?raw=true)
